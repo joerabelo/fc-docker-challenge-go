@@ -4,7 +4,7 @@
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
-```docker run <seu-user>/fullcycle```
+```docker run joerabelo/fullcycle```
 
 Temos que ter o seguinte resultado: **_Full Cycle Rocks!!_**
 
@@ -39,7 +39,7 @@ docker build -t joerabelo/fullcycle .
 
 ## Run (output)
 ```bash
-docker run joerabelo/fullcycle
+docker run --rm --name desafio-go joerabelo/fullcycle
 ```
 ![](assets/docker-run.png)
 
